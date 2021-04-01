@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authentication Form</title>
+  <link rel="stylesheet" href="css/Auth.css">
+
+</head>
+
+<body>
+<div class="form1 section-gap">
+<div class="wrapper">
+<div class="container">
+<h1 style="font-size: 40px; " >E-Mail Varification</h1>
+        </div>
+        <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+          <div class="form-mid">
+		      <p id="sc" class="input1" disabled></p>
+			  <button type="submit" class="btn btn-contact" onclick="javascript:sendmail()">Get OTP</button>
+			  <button type="reset" class="btn btn-contact" onclick="done()">for verification</button>
+          </div>
+        </div>
+		  <h4>Click on the images to enter the OTP</h4>
+            <table  class="left">
+                 <tr>
+                    <td><button onclick="sendNum('0')"><img src="image/laptop10.jpg" width="90" height="90"><b>0</b></button></td>
+                    <td><button onclick="sendNum('1')"><img src="image/car_1.jpg" width="90" height="90"><b>1</b></button></td>
+                    <td><button onclick="sendNum('2')"><img src="image/flower2.jpg" width="90" height="90"><b>2</b></button></td>
+                    <td><button onclick="sendNum('3')"><img src="image/ittar3.jpg" width="90" height="90"><b>3</b></button></td>
+					<td><button onclick="sendNum('4')"><img src="image/scene4.jpg" width="90" height="90"><b>4</b></button></td>
+		            <td><button onclick="sendNum('5')"><img src="image/tor5.jpg" width="90" height="90"><b>5</b></button></td>
+                    <td><button onclick="sendNum('6')"><img src="image/titli6.jpg" width="90" height="90"><b>6</b></button></td>
+                    <td><button onclick="sendNum('7')"><img src="image/rat7.jpg" width="90" height="90"><b>7</b></button></td>
+                    <td><button onclick="sendNum('8')"><img src="image/human8.jpg" width="90" height="90"><b>8</b></button></td>
+					<td><button onclick="sendNum('9')"><img src="image/lock9.jpg" width="90" height="90"><b>9</b></button></td>
+					<td><button onclick="clearScr()"><b>clear</b></button></td>
+                 </tr>
+				</table>
+        </div>
+    </div>
+	</div>
+  
+  
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="js/mail.js"></script>
+<script src="js/singup.js"></script>
+<script src="js/vari.js"></script>
+<script src="js/logic.js"></script>
+</body>
+</html>

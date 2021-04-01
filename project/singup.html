@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Authentication Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- contact -->
+  <section class="w3l-simple-contact-form1">
+    <div class="contact-form section-gap">
+      <div class="wrapper">
+      <div class="text-center">
+      <h1 style="font-size: 40px; " >Create Your Account</h1>
+      </div>
+        <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+          <div class="form-mid">
+            
+			<form method="post">
+              <div class="field">
+				<input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+              </div>
+			  <div class="field">
+				<input type="email" class="form-control" name="Sender" id="email" placeholder="Email" required>
+              </div>
+			  <div class="field">
+				<input type="phone" class="form-control" name="Phone" id="phone" placeholder="Phone No." required>
+              </div>
+              <div class="field">
+				  <input type="Password" class="form-input" name="password" id="pw" placeholder="Password" required>
+              </div>
+			  <div class="field">
+				  <input type="password" class="form-input" name="Re-Password" id="re" placeholder="Re-Password" required>
+              </div>
+			  <ul>
+            <li class="length">Must be at least 8 characters long.</li>
+            <li class="lowercase">Must contain a lowercase letter.</li>
+            <li class="uppercase">Must contain an uppercase letter.</li>
+            <li class="special">Must contain a number or special character.</li>
+            </ul>
+              <button type="reset" class="btn btn-contact" onclick="store()"> Sing Up </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/singup.js"></script>
+  </body>
+  </html>

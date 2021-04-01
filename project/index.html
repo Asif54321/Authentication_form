@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Authentication Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="w3l-simple-contact-form1">
+    <div class="contact-form section-gap">
+      <div class="wrapper">
+        <div class="text-center">
+        <h1 style="font-size: 40px; " >Authentication Form</h1>
+        </div>
+        <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+          <div class="form-mid">
+            
+			<form method="post">
+              <div class="field">
+				<input type="email" class="form-control" name="Name1" id="Name1" placeholder="Email" required="">
+              </div>
+              <div class="field">
+				<input type="Password" class="form-input" name="userPw" id= "userPw" placeholder="Password" required="">
+              </div>
+              <button type="reset" class="btn btn-contact" onclick="check()"> Login </button>
+			  
+			  
+			  <button onclick="location.href='singup.html'" class="btn btn-contact" >Sing Up</button>
+           </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<script src="js/mail.js"></script>
+<script src="js/singup.js"></script>
+</body>
+</html>
